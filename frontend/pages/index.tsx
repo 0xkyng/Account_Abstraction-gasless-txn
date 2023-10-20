@@ -1,8 +1,8 @@
 import {  ConnectWallet, Web3Button, useContract, useContractRead } from "@thirdweb-dev/react";
 import styles from "../styles/Home.module.css";
 import { NextPage } from "next";
-import {abi} from "../pages/abi";
-import {deployedAddresses} from "../pages/address";
+import {abi} from "../constants/abi";
+import {deployedAddresses} from "../constants/address";
 import { useState } from "react";
 
 const Home: NextPage = () => {
